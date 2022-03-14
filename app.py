@@ -2,10 +2,10 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-from sklearn.neighbors import KNeighborsClassifier
+# from sklearn.neighbors import KNeighborsClassifier
 from prediction import get_prediction
-from sklearn.metrics import confusion_matrix,classification_report,precision_score,recall_score,f1_score
-from sklearn.metrics import _dist_metrics
+# from sklearn.metrics import confusion_matrix,classification_report,precision_score,recall_score,f1_score
+# from sklearn.metrics import _dist_metrics
 from sklearn.pipeline import Pipeline
 
 model = joblib.load(r'Model/Knn_model.pkl')
