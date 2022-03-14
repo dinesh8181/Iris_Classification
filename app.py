@@ -35,5 +35,5 @@ def main():
         
         st.write(f"The predicted Iris flower is:  {pred[0]}")
         
- if __name__ == '__main__':
-     main()
+if __name__ == '__main__':
+    main()
