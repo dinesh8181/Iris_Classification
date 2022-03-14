@@ -9,9 +9,10 @@ Original file is located at
 
 import joblib
 import numpy as np
-from sklearn.neighbors import KNeighborsClassifier 
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.pipeline import Pipeline
 
-def get_prediction(data,pipe):
+def get_prediction(data,model):
     """
     Predict the class of a given data point.
     """
