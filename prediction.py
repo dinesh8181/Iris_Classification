@@ -16,4 +16,4 @@ def get_prediction(data,model):
     """
     Predict the class of a given data point.
     """
-    return knn.predict(data)
+    return model.predict(data)
