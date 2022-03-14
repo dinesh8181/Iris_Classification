@@ -7,7 +7,7 @@ from prediction import get_prediction
 
 model = joblib.load(r'Model/Knn_model.pkl')
 
-st.set_page_config(page_tile="Iris Flower Prediction",page_icon="Flower" layout-"wide")
+st.set_page_config(page_tile="Iris Flower Prediction",page_icon="Flower", layout-"wide")
 
 features=['sepal.length','sepal.width','petal.length','petal.width']
 
