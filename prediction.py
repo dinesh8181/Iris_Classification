@@ -11,8 +11,8 @@ import joblib
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier 
 
-def get_prediction(data,model):
+def get_prediction(data,pipe):
     """
     Predict the class of a given data point.
     """
-    return model.predict(data)
+    return pipe.predict(data)
