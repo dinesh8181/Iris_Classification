@@ -28,7 +28,7 @@ def main():
     
     if submit:
         data = np.array([sepal_length,sepal_width,petal_length,petal_width])
-        pred = get_prediction(data = data, pipe = pipe)
+        pred = get_prediction(data = data, pipe = model)
         st.write(f"The predicted Iris flower is:  {pred[0]}")
         
 if __name__ == '__main__':
